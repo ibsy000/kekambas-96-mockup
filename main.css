@@ -1,3 +1,30 @@
-body{
-    background-color: yellow;
+.container{
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 1175px;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.logo{
+    border: 5px solid blue;
+    height: 100px;
+    width: 200px;
+}
+
+
+#sign-in{
+    border: 5px solid yellow;
+    height: 500px;
+    width: 500px;
+    order: 1
+}
+
+#footer{
+    border: 5px solid green;
+    height: 200px;
+    width: 100%;
+    order: 2;
+}
+
