@@ -4,27 +4,28 @@
     flex-direction: column;
     height: 1175px;
     align-items: center;
-    justify-content: space-between;
 }
 
 .logo{
-    border: 5px solid blue;
-    height: 100px;
-    width: 200px;
+    margin-top: 50px;
 }
 
 
-#sign-in{
+.main{
     border: 5px solid yellow;
     height: 500px;
     width: 500px;
-    order: 1
+    margin-top: 50px;
 }
 
-#footer{
+.footer{
     border: 5px solid green;
     height: 200px;
     width: 100%;
-    order: 2;
+    margin-top: 300px;
+}
+
+.button{
+    width: 385px
 }
 
